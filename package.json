@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build:frontend": "webpack -w",
-    "build:backend": "tsc"
+    "test:silent": "jest --watchAll --silent --noStackTrace"
   },
   "keywords": [],
   "author": "",
